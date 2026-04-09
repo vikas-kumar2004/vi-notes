@@ -7,7 +7,7 @@ import {
 
 // Axios instance — swap baseURL with your own MockAPI project URL
 const apiClient = axios.create({
-  baseURL: "http://localhost:5000/api/auth",
+  baseURL: "https://vi-notes-av4n.onrender.com/api/auth",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
