@@ -113,15 +113,15 @@ const RegisterPage: React.FC = () => {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
       <div className="bg-white w-full max-w-sm rounded-xl border border-gray-200 shadow-sm p-8">
         {/* Header */}
-        <h1 className="text-xl font-semibold text-gray-900 mb-1">
-          Create account
-        </h1>
         <p className="text-sm text-gray-500 mb-6">
           Already have one?{" "}
           <a href="/login" className="text-blue-600 hover:underline">
             Sign in
           </a>
         </p>
+        <h1 className="text-xl font-semibold text-gray-900 mb-1">
+          Create account
+        </h1>
 
         {/* API error */}
         {status === "error" && apiError && (
