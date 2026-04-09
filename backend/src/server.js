@@ -4,6 +4,8 @@ import cors from "cors";
 import authRoutes from "./routes/auth.route.js";
 import { connectDB } from "./lib/db.js";
 dotenv.config();
+import path from "path";
+const __dirname = path.resolve();
 const app = express();
 const PORT = process.env.PORT;
 app.use(
